@@ -109,7 +109,13 @@
 }
 @media screen and (max-width: 991px) {
   .top .about .about-comment {
+    margin-top: 50px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top .about .about-comment {
+    margin-top: 0;
   }
 }
 .top .about .about-comment__start {
@@ -255,6 +261,7 @@
   margin-top: 5%;
   margin-inline: auto;
   width: 60%;
+  height: 500px;
 }
 @media screen and (max-width: 800px) {
   .top .access .access-map {

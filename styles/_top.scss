@@ -118,7 +118,11 @@
             text-align: right;
             margin-top: 100px;
             @include w991 {
+                margin-top: 50px;
                 text-align: center;
+            }
+            @include w768 {
+                margin-top: 0;
             }
 
             &__start {
@@ -264,6 +268,7 @@
             margin-top: 5%;
             margin-inline: auto;
             width: 60%;
+            height: 500px;
             @include w800 {
                 width: 90%;
             }
