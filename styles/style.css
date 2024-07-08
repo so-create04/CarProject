@@ -156,6 +156,11 @@
     position: relative;
   }
 }
+@media screen and (max-width: 768px) {
+  .top .about .about-comment__end {
+    margin-top: 100px;
+  }
+}
 .top .about .about-comment__end h2 {
   font-size: 2rem;
   width: 40%;
