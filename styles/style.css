@@ -6,7 +6,7 @@
   background-attachment: fixed;
 }
 .top .hero .hero-title {
-  transform: translateY(450px);
+  transform: translateY(300px);
   position: relative;
   z-index: 3;
   color: white;
