@@ -6,3 +6,10 @@ window.addEventListener('resize', () => {
         con.classList.add('vh-100');
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const bar = document.querySelector('.contact-page .container');
+    if (window.innerWidth <= 768) {
+        con.classList.remove('vh-100');
+    }
+});

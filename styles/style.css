@@ -713,7 +713,7 @@ section {
   text-shadow: white 2px 2px 5px;
   color: white;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 .contact-page .container__list {
   padding-top: 15%;
@@ -770,7 +770,7 @@ section {
   text-align: center;
   font-size: 2.5rem;
   text-shadow: black 2px 2px 5px;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 .works-page .container .works-comment {
   padding-top: 40px;
